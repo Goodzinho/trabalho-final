@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('../fontes/LIQUID\ NIGHT\ 400.otf') format('opentype');
+    src: url('../fontes/IDroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -16,9 +16,9 @@
     --cor4: #1a5c37;
     --cor5: #063d1e;
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'Android', cursive;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque:  'Android', sans-serif;
+    --fonte-android:  'Android', sans-serif;
 }
 
 * {
@@ -36,13 +36,13 @@ body {
 header {
     background-image: linear-gradient(to bottom, var(--cor3),
      var(--cor5));
-    min-height: 150px;
+    min-height: 70px;
     text-align: center;
-    padding-top: 40px;
+    
 }
 
 header > h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
@@ -84,7 +84,7 @@ nav > a:hover {
 
 main {
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
